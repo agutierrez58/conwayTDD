@@ -14,9 +14,9 @@ import org.junit.Test;
  * TDD Coding kata: game of life
  * 
  * 1) Escriure UnitTest.
- * 2) Començar pel primer requeriment - aSingleCellShouldHaveZeroNeighbors
- * 		Escrius el codi mínim (i el vas implementant..)
- *      ... i intentes fer el mínim codi per que passi el test.
+ * 2) ComenÃ§ar pel primer requeriment - aSingleCellShouldHaveZeroNeighbors
+ * 		Escrius el codi mÃ­nim (i el vas implementant..)
+ *      ... i intentes fer el mÃ­nim codi per que passi el test.
  * 3)  
  * 		
  * 
