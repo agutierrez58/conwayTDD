@@ -1,4 +1,4 @@
-package org.tdd;
+package org.algoritmes.tdd;
 
 public class GoGrid {
 	/**
