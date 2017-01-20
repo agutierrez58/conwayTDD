@@ -2,13 +2,18 @@ package org.algoritmes.tdd;
 
 public class Game {
 
+	private Board board;
+	
 	public Game(Board board) {
-		// TODO Auto-generated constructor stub
+		this.board = board;
 	}
 
 	public Board nextIteration() {
-		return new Board();
-		
+	
+		return board.nextIteration();	
 	}
+	/*
+	 * print
+	 */
 
 }
