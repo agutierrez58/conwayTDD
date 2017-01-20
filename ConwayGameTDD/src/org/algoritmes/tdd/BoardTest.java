@@ -111,7 +111,7 @@ public class BoardTest {
 
 	/* Fins el 7' 16'' aprox de video (mateixes idees) */
 	
-	private Board createBlockBoard(int width, int height) {
+	public static Board createBlockBoard(int width, int height) {
 		// Interessant, el refactoring ho fem una vegada el test s'ha executat amb exit...
 		Board board = new Board();
 		for (int i = 0; i < width; i++) {

@@ -74,6 +74,6 @@ public class Board {
 		return nextBoard;
 	}
 
-	
+
 
 }

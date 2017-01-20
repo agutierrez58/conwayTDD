@@ -9,11 +9,20 @@ public class Game {
 	}
 
 	public Board nextIteration() {
-	
-		return board.nextIteration();	
+		Board nextBoard = board.nextIteration();
+		this.board = nextBoard;	
+		return nextBoard;	
 	}
-	/*
-	 * print
-	 */
+	
+	public void paintBoard(int tamany) {
+		for (int i=0; i < tamany;i++){
+			for (int j=0; j < tamany; j++) {
+				System.out.print(board.isAlive(new Cell(i,j)) ? "X" :" " );
+			}
+			System.out.print("\n");
+		}
+	}
+	
 
+	
 }
