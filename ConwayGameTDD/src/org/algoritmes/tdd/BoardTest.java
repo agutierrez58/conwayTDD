@@ -9,10 +9,12 @@ import java.util.Set;
 import org.junit.Test;
 
 /**
+ * 
+ * 
  * https://www.youtube.com/watch?v=Gjcz-H73I0Q TDD Coding kata: game of life
  * 
  * 1) Escriure UnitTest. 
- * 2) Començar pel primer requeriment -
+ * 2) Comen�ar pel primer requeriment -
  * aSingleCellShouldHaveZeroNeighbors Escrius el codi mínim (i el vas
  * implementant..) ... i intentes fer el mínim codi per que passi el test (ni
  * mes ni menys). 
